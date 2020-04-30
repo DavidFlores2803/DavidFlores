@@ -8,9 +8,9 @@
 }
 body
 {
-  background-image: url(../images/background2.jpeg);
-  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background2.jpeg'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/background3.jpeg');
   background-attachment: fixed;
+  color: #EFF2F1;
 }
 nav
 {
@@ -19,6 +19,7 @@ nav
   background-color: #4059AD;
   display: flex;
   justify-content: space-between;
+  border-bottom: 7px solid #FCE36B;
 }
 p
 {
@@ -41,7 +42,7 @@ a:hover
 a
 {
   text-decoration: none;
-  color: black;
+  color: #EFF2F1;
 }
 h2
 {
