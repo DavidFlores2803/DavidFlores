@@ -41,3 +41,25 @@ a
   text-decoration: none;
   color: black;
 }
+h1
+{
+    text-align: center;
+    margin: 25px;
+}
+main
+{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+main p
+{
+    margin: 10%;
+    font-size: 1.5em;
+}
+img
+{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
