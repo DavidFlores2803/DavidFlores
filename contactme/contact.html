@@ -18,5 +18,51 @@
             <a href="../contactme/contact.html"><li>Contact me</li></a>
         </ul>
     </nav>
+    <h1>Contact me</h1>
+    <main>
+        <form action="">
+            <label for="nameFirst">First Name</label>
+            <input id="fname" type="text" placeholder="First name..">
+        </form>
+        <form action="">
+            <label for="nameLast">Last Name</label>
+            <input type="text" placeholder="Last name...">
+        </form>
+        <div>
+            <label class="container">Phone Number
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Email
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+        </div>
+        <form action="">
+            <label for="contact"></label>
+            <input type="text">
+        </form>
+        <label for="region">Country</label>
+        <select id="region" name="region">
+          <option value="alberta">Alberta</option>
+          <option value="bc">British Columbia</option>
+          <option value="manitoba">Manitoba</option>
+          <option value="nb">New Brunswick</option>
+          <option value="nfld&lab">Newfoundland and Labrador</option>
+          <option value="nwterritories">Northwest Territories</option>
+          <option value="novascotia">Nova Scotia</option>
+          <option value="nunavut">Nunavut</option>
+          <option value="ontario">Ontario</option>
+          <option value="pei">Prince Edward Island</option>
+          <option value="quebec">Quebec</option>
+          <option value="saskatchewan">Saskatchewan</option>
+          <option value="yukon">Yukon</option>
+        </select>
+
+        <label for="subject">Other Info</label>
+        <textarea id="subject" name="subject" placeholder="Any other info ..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </main>
 </body>
 </html>

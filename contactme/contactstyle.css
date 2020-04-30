@@ -8,7 +8,8 @@
 }
 body
 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background2.jpeg');
+    background-image: url(../images/background2.jpeg);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background2.jpeg'); */
     background-attachment: fixed;
 }
 nav
@@ -42,3 +43,19 @@ a
   text-decoration: none;
   color: black;
 }
+main
+{
+    width: 50%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #EFF2F1;
+    background-color: #EFF2F1;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
